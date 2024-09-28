@@ -28,6 +28,7 @@ int main()
     if (pid1 == 0)
     {
         // Child[0] process running
+        printf("Child[0] process running \n");
         for (int i = 10; i <= 10 + num; i++)
         {
             printf("%d\n", i);
@@ -45,6 +46,7 @@ int main()
     if (pid2 == 0)
     {
         // Child[1] process running
+        printf("Child[1] process running \n");
         for (int i = 20; i <= 20 + num; i++)
         {
             printf("%d\n", i);
@@ -63,6 +65,7 @@ int main()
 
     // Resume Parent process
 
+    printf("Parent process is running\n");
     for (int i = 0; i <= num; i++)
     {
         printf("%d\n", i);
