@@ -8,11 +8,10 @@
 
 int main()
 {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
     int num, status;
     pid_t pid1, pid2;
 
-    // Enter an integer in the range
+    // Enter an integer in the range[1-9]
     printf("Ener an integer in the range:\n");
     scanf("%d", &num);
 

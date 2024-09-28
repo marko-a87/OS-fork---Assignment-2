@@ -8,7 +8,7 @@ Steps to running fork.c
 
 3. Enter  **./fork**
 
-4. Enter a number in the range
+4. Enter a number in the range from 1-9
 
 5. Program executes
 
